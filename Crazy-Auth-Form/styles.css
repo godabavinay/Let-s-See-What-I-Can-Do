@@ -1,0 +1,84 @@
+:root {
+    --custom-white: #f7f7f7;
+    --custom-black: #3f3f44;
+    --custom-blue: #162447;
+    --custom-green: #649d66;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-size: 1.3vw; */
+    color: var(--custom-black);
+    background-color: var(--custom-white);
+}
+
+.container {
+    width: 30vw;
+    height: 70vh;
+    margin: auto;
+    background-color: white;        
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(63, 63, 68, 0.4);
+
+    /* padding: 50px 20px; */
+    box-sizing: border-box;
+    margin-top: 15vh;
+
+    min-width: 250px;
+    max-width: 500px;
+
+    min-height: 300px;
+    max-height: 600px;
+}
+
+.form {
+    width: 80%;
+    margin: auto;
+}
+
+input {
+    border-style: none;
+    border-bottom-style: dashed;
+    padding: 5px 2px;
+    width: 100%;
+
+    font-size: 1vw;
+    /* background-color: var(--custom-white); */
+
+    margin-bottom: 20px;
+    color: black;
+}
+
+input:focus {
+    outline: none;
+}
+
+.title {
+    background-color: var(--custom-green);
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 8px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#email_id {
+    position: relative;
+    top: 3vh;
+    font-size: 1.3vw;
+}
+
+#pass_id {
+    position: relative;
+    top: 3vh;
+    font-size: 1.3vw;
+}
+
+email:focus-within {
+    
+}
